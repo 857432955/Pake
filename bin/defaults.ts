@@ -28,6 +28,6 @@ export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
   url: 'https://www.baidu.com',
   name: '百度',
-  safeDomain: ['weread.qq.com'],
+  safeDomain: ['www.baidu.com'],
   hideTitleBar: true,
 };
