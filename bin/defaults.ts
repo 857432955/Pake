@@ -27,7 +27,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & { url: string } = {
   ...DEFAULT_PAKE_OPTIONS,
   url: 'https://www.baidu.com',
-  name: '百度',
+  name: 'baidu',
   safeDomain: ['www.baidu.com'],
   hideTitleBar: true,
 };
